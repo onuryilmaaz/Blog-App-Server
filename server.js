@@ -11,10 +11,10 @@ import { getAuth } from "firebase-admin/auth"
 import aws from "aws-sdk"
 
 //schema below
-import User from "../server/Schema/User.js"
-import Blog from "../server/Schema/Blog.js";
-import Notification from "../server/Schema/Notification.js";
-import Comment from "../server/Schema/Comment.js";
+import User from "./Schema/User.js"
+import Blog from "./Schema/Blog.js";
+import Notification from "./Schema/Notification.js";
+import Comment from "./Schema/Comment.js";
 
 const server = express();
 let PORT = 3000;
